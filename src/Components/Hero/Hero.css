@@ -1,0 +1,84 @@
+.hero {
+  height: 87vh;
+  background: #e2f4c5;
+  display: flex;
+  margin-bottom: 100px;
+}
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 180px;
+  line-height: 1.1;
+}
+.hero-left h2 {
+  color: #090909;
+  font-size: 20px;
+  font-weight: 600;
+}
+.hero-left p {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero-hand-icon img {
+  width: 60px;
+}
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+  height: 60px;
+  border-radius: 75px;
+  margin-top: 8px;
+  background: #6a655f;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-right img {
+  width: 700px;
+  height: 650px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  max-width: 42rem;
+  margin-top: 3rem;
+  font-size: 4.5rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.125;
+  text-align: start;
+  color: #ceb591;
+}
+
+.hero-title-2 {
+  color: #6a655f;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+.hero-description {
+  max-width: 32rem;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #776881;
+}
